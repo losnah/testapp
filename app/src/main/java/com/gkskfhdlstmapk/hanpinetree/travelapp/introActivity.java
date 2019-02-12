@@ -14,6 +14,7 @@ public class introActivity extends Activity{
         setContentView(R.layout.intro); //xml , java 소스 연결
         Handler handler = new Handler();
         handler.postDelayed(new Runnable(){
+
         @Override
         public void run() {
             Intent intent = new Intent (getApplicationContext(), MainActivity.class);
